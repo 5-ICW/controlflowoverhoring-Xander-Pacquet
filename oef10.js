@@ -19,3 +19,16 @@
 
 let startgetal = 2;
 const eindgetal = 12;
+
+while (startgetal <= eindgetal) {
+  startgetal += 2;
+  aantalkeer = eindgetal % startgetal;
+}
+if (eindgetal % startgetal == 0) {
+  console.log("even");
+} else {
+  console.log("oneven");
+}
+console.log(
+  `Het startgetal ${startgetal} werd ${aantalkeer} aantal keer verhoogt met 2`
+);

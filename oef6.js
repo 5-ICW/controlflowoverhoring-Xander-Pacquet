@@ -4,4 +4,14 @@
  * De kleur wordt uitgeprint in de console
  */
 
-let kleur;
+let defalultKleur = "rood";
+switch (defalultKleur) {
+  case "rood":
+    console.log(defalultKleur);
+
+    break;
+
+  default:
+    console.log(defalultKleur);
+    break;
+}

@@ -3,11 +3,9 @@
  */
 
 // 1. for lus
-for (i=1, i<= 10, i++){
-    consosle.log(i)
+for (i = 1; i <= 10; i++) {
+  consosle.log(i);
 }
-
-
 
 // 2. if else
 if (condition) {

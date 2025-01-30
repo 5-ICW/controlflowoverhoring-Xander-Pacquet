@@ -12,7 +12,11 @@
  * licht uit geeft enkel otuput als het licht al aan was
  */
 const commando = "licht uit";
-switch (commando) {
+const radio = true;
+const lichtAan = true;
+switch (
+  commando //dit is hetzelfde als oefening4 behalve kijk ik nu als er een radio aan is en het licht uit is en als dit klopt mogen de functies aan.
+) {
   case "open deur":
     console.log("deur gaat open");
     break;
@@ -20,13 +24,17 @@ switch (commando) {
     console.log("muziek start met spelen");
     break;
   case "stilte":
-    console.log("Muziek gaat uit");
+    if (radio == true) {
+      console.log("Muziek gaat uit");
+    }
     break;
   case "licht aan":
     console.log("licht gaat aan");
     break;
   case "licht uit":
-    console.log("licht gaat uit");
+    if (lichtAan == true) {
+      console.log("licht gaat uit");
+    }
 
   default:
     break;

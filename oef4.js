@@ -15,7 +15,7 @@
  */
 const commando = "licht uit";
 switch (commando) {
-  case "open deur":
+  case "open deur": //als het woordje deur opkomt moet de console deur gaat open ingeven en zo werkt dit voor al de rest
     console.log("deur gaat open");
     break;
   case "muziek":
